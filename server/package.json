@@ -1,0 +1,26 @@
+{
+  "name": "homecare",
+  "version": "2.0.0",
+  "description": "Doctor appointment booking website",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon server.js"
+  },
+  "author": "Anurag Ranjan",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yoak21/Doctors-Appointment-Booking-system.git"
+  },
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "jsonwebtoken": "^9.0.2",
+    "mongodb": "^5.9.2",
+    "mongoose": "^6.12.8",
+    "nodemon": "^3.1.0"
+  },
+  "keywords": []
+}
